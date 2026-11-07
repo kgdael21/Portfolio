@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p5Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="50%" stop-color="#2e1065" />
+      <stop offset="100%" stop-color="#581c87" />
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#a855f7" flood-opacity="0.8" />
+    </filter>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#p5Grad)" />
+
+  <!-- Retro Cyber Sun -->
+  <circle cx="300" cy="190" r="110" fill="url(#sunGrad)" filter="url(#neonGlow)" />
+  <!-- Sun slices -->
+  <rect x="180" y="210" width="240" height="4" fill="#2e1065" />
+  <rect x="180" y="222" width="240" height="6" fill="#2e1065" />
+  <rect x="180" y="236" width="240" height="8" fill="#2e1065" />
+  <rect x="180" y="252" width="240" height="12" fill="#2e1065" />
+  <rect x="180" y="272" width="240" height="16" fill="#2e1065" />
+
+  <!-- Cyber Mountain Silhouettes -->
+  <polygon points="40,310 160,200 280,310" fill="#3b0764" />
+  <polygon points="200,310 320,180 440,310" fill="#1e1b4b" opacity="0.9" />
+  <polygon points="360,310 470,220 560,310" fill="#2e1065" />
+
+  <!-- Perspective 3D Grid Floor -->
+  <g stroke="#06b6d4" stroke-width="1.5" opacity="0.75">
+    <line x1="0" y1="310" x2="600" y2="310" />
+    <line x1="0" y1="325" x2="600" y2="325" />
+    <line x1="0" y1="345" x2="600" y2="345" />
+    <line x1="0" y1="370" x2="600" y2="370" />
+    
+    <line x1="300" y1="310" x2="50" y2="400" stroke-width="2" />
+    <line x1="300" y1="310" x2="160" y2="400" stroke-width="2" />
+    <line x1="300" y1="310" x2="270" y2="400" stroke-width="2" />
+    <line x1="300" y1="310" x2="330" y2="400" stroke-width="2" />
+    <line x1="300" y1="310" x2="440" y2="400" stroke-width="2" />
+    <line x1="300" y1="310" x2="550" y2="400" stroke-width="2" />
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="30" y="25" width="165" height="32" rx="16" fill="#ffffff" />
+  <text x="112" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#581c87" text-anchor="middle">Vector Illustration</text>
+</svg>

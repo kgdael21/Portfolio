@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74" />
+      <stop offset="50%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <filter id="pShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#7c2d12" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#p1Grad)" />
+  <circle cx="500" cy="80" r="120" fill="#fed7aa" opacity="0.3" />
+  <circle cx="80" cy="320" r="90" fill="#c2410c" opacity="0.2" />
+
+  <!-- Coffee Cup / Packaging Mockup -->
+  <g filter="url(#pShadow)" transform="translate(180, 50)">
+    <!-- Cup Body -->
+    <path d="M 50 60 L 70 260 C 72 275, 168 275, 170 260 L 190 60 Z" fill="#ffffff" />
+    <!-- Cup Sleeve -->
+    <path d="M 58 130 L 64 210 C 65 220, 175 220, 176 210 L 182 130 Z" fill="#451a03" />
+    <!-- Sleeve Brand Badge -->
+    <circle cx="120" cy="170" r="28" fill="#d97706" />
+    <text x="120" y="167" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">AURA</text>
+    <text x="120" y="180" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="600" fill="#fef3c7" text-anchor="middle">ROASTERY</text>
+    <!-- Lid -->
+    <path d="M 40 60 L 45 42 L 195 42 L 200 60 Z" fill="#292524" />
+    <rect x="75" y="34" width="90" height="10" rx="4" fill="#292524" />
+  </g>
+
+  <!-- Bean Bag Pouch Mockup -->
+  <g filter="url(#pShadow)" transform="translate(350, 110)">
+    <rect x="0" y="0" width="140" height="190" rx="12" fill="#292524" />
+    <rect x="15" y="30" width="110" height="130" rx="6" fill="#fef3c7" />
+    <circle cx="70" cy="70" r="20" fill="#f97316" />
+    <text x="70" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="900" fill="#ffffff" text-anchor="middle">AURA</text>
+    <rect x="30" y="105" width="80" height="4" rx="2" fill="#92400e" />
+    <rect x="40" y="115" width="60" height="3" rx="1.5" fill="#d97706" />
+    <rect x="45" y="125" width="50" height="3" rx="1.5" fill="#d97706" />
+    <rect x="0" y="180" width="140" height="10" rx="3" fill="#1c1917" />
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="40" y="40" width="160" height="34" rx="17" fill="#ffffff" />
+  <text x="120" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#c2410c" text-anchor="middle">Brand & Packaging</text>
+</svg>

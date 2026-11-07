@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p6Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <filter id="p6Shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#064e3b" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#p6Grad)" />
+
+  <!-- Poster Frame Mockup -->
+  <g filter="url(#p6Shadow)" transform="translate(110, 45)">
+    <rect width="180" height="310" rx="6" fill="#0f172a" stroke="#ffffff" stroke-width="3" />
+    <!-- Poster Artwork -->
+    <rect x="10" y="10" width="160" height="290" fill="#111827" />
+    <circle cx="90" cy="110" r="55" fill="#facc15" />
+    <path d="M 40 180 Q 90 90 140 180 Z" fill="#10b981" />
+    <path d="M 60 180 Q 90 120 120 180 Z" fill="#047857" />
+    <text x="90" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">SOUNDWAVE</text>
+    <text x="90" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#facc15" text-anchor="middle" letter-spacing="3">MUSIC FESTIVAL</text>
+    <text x="90" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">LIVE IN LAGUNA</text>
+    <text x="90" y="225" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#9ca3af" text-anchor="middle">DEC 18 • CALAMBA STADIUM</text>
+    <!-- Barcode at bottom -->
+    <rect x="50" y="250" width="80" height="15" fill="#ffffff" />
+    <line x1="55" y1="250" x2="55" y2="265" stroke="#000" stroke-width="2" />
+    <line x1="62" y1="250" x2="62" y2="265" stroke="#000" stroke-width="3" />
+    <line x1="72" y1="250" x2="72" y2="265" stroke="#000" stroke-width="1.5" />
+    <line x1="82" y1="250" x2="82" y2="265" stroke="#000" stroke-width="4" />
+    <line x1="95" y1="250" x2="95" y2="265" stroke="#000" stroke-width="2" />
+    <line x1="108" y1="250" x2="108" y2="265" stroke="#000" stroke-width="3" />
+    <line x1="120" y1="250" x2="120" y2="265" stroke="#000" stroke-width="1.5" />
+  </g>
+
+  <!-- Merch T-Shirt Mockup -->
+  <g filter="url(#p6Shadow)" transform="translate(320, 70)">
+    <!-- T-Shirt Shape -->
+    <path d="M 50 20 L 80 5 C 100 20, 130 20, 150 5 L 180 20 L 220 70 L 185 95 L 175 65 L 175 250 L 55 250 L 55 65 L 45 95 L 10 70 Z" fill="#ffffff" />
+    <path d="M 80 5 C 100 22, 130 22, 150 5 Z" fill="#f1f5f9" />
+    <!-- Merch Graphic on Shirt -->
+    <circle cx="115" cy="120" r="32" fill="#111827" />
+    <text x="115" y="118" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="900" fill="#facc15" text-anchor="middle">SOUND</text>
+    <text x="115" y="128" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="900" fill="#ffffff" text-anchor="middle">WAVE</text>
+    <path d="M 98 135 Q 115 142 132 135" stroke="#10b981" stroke-width="2" fill="none" />
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="30" y="25" width="165" height="32" rx="16" fill="#ffffff" />
+  <text x="112" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#047857" text-anchor="middle">Poster &amp; Merch Design</text>
+</svg>
